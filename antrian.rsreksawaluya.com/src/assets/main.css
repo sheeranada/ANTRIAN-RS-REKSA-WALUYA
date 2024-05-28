@@ -1,0 +1,52 @@
+body, html, * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+:root {
+    --warna1: #eff6ff;
+    --warna2: #dbeafe;
+    --warna3: #bfdbfe;
+    --warna4: #93c5fd;
+    --warna5: #60a5fa;
+    --warna6: #3b82f6;
+    --warna7: #2563eb;
+    --warna8: #1d4ed8;
+    --warna9: #1e40af;
+    --warna10: #1e3a8a;
+    --warna11: #172554;
+}
+
+/* FORM LOGIN */
+#login {
+    background-image: url('../assets/img/hero1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+    position: relative;
+}
+
+#login::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+
+}
+
+#login img {
+    width: 50px;
+    margin-bottom: 10px;
+    position: relative;
+}
